@@ -51,7 +51,7 @@ class ScrollEffect extends StatelessWidget {
                   crossAxisSpacing: 8, //수평간격
                 ),
                 itemCount: 20,
-                primary: false,
+                primary: false, // 스크롤 가능하게
                 shrinkWrap: true,
                 // padding: const EdgeInsets.all(8),
                 itemBuilder: (context, i) {
